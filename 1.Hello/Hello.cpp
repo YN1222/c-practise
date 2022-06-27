@@ -1,8 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-int main(){
-  printf("Hello world!\n");
-  system("pause");
-  return 0;
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "Hello, world!" << endl;
+    cout << "你好，世界！" << endl;
+    system("pause");
+    return 0;
 }
